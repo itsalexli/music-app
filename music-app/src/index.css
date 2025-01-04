@@ -43,3 +43,10 @@
   width: 26px;
   padding-left: 7px;
 }
+
+.bar {
+  top: 30px;
+  height: 58px;
+  width: 1px;
+  position: relative;
+}

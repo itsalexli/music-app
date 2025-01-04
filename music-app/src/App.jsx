@@ -4,19 +4,10 @@ import Display from "./Display.jsx";
 export const measureNum = 10;
 
 export const noteList = [
-  { measure: 5, step: "C" },
-  { measure: 1, step: "G" },
-  { measure: 1, step: "G" },
-  { measure: 1, step: "G" },
-  { measure: 1, step: "G" },
-  { measure: 1, step: "G" },
-  { measure: 1, step: "G" },
-  { measure: 1, step: "A" },
-  { measure: 3, step: "A" },
-  { measure: 4, step: "B" },
-  { measure: 5, step: "C" },
-  { measure: 6, step: "D" },
-  { measure: 7, step: "E" },
+  { measure: 5, step: "C", type: "16" },
+  { measure: 1, step: "G", type: "8" },
+  { measure: 1, step: "G", type: "half" },
+  { measure: 1, step: "G", type: "whole" },
 ];
 
 function App() {

@@ -17,7 +17,7 @@ function getStepPosition(step) {
   return stepMap[step]; // Default to the baseline if step is unknown
 }
 
-function Note({ measure, step }) {
+function Note({ measure, step, type }) {
   const position = getStepPosition(step);
 
   return (

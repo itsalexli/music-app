@@ -9,8 +9,8 @@ function Measure({ measure, notes }) {
     <div className="measure-container">
       <img className="measure" src={MeasurePic} alt={`Measure ${measure}`} />
       <ul className="note-container">
-        {measureNotes.map((note, index) => (
-          <li key={`${note.measure}-${note.step}-${index}`}>
+        {measureNotes.map((note) => (
+          <li key={`${note.measure}-${note.step}-${type}`}>
             <Note {...note} />
           </li>
         ))}

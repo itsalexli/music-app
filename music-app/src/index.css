@@ -18,8 +18,8 @@
   display: flex;
   position: relative;
   background-color: lightgreen;
-  /* border-style: solid;
-  border-color: red; */
+  border-style: solid;
+  border-color: red;
 }
 
 .measure {
@@ -48,6 +48,13 @@
   padding: 0;
   width: 26px;
   padding-left: 7px;
+}
+
+.uploadBox {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 20px;
 }
 
 .bar {

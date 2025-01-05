@@ -18,6 +18,8 @@
   display: flex;
   position: relative;
   background-color: lightgreen;
+  /* border-style: solid;
+  border-color: red; */
 }
 
 .measure {
@@ -31,10 +33,14 @@
   padding: 0;
   width: 200px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 0;
   left: 0;
+  /* border-style: solid;
+  border-color: blue; */
+  width: 95%;
 }
 
 .note {
@@ -49,4 +55,5 @@
   height: 58px;
   width: 1px;
   position: relative;
+  background-color: black;
 }

@@ -10,16 +10,20 @@ export const noteList = [
   { measure: 1, step: "F", type: "half" },
   { measure: 1, step: "F", type: "half" },
   { measure: 1, step: "F", type: "half" },
-  { measure: 1, step: "F", type: "sixteen" },
+  { measure: 1, step: "F", type: "half" },
+  { measure: 1, step: "F", type: "half" },
+  { measure: 1, step: "F", type: "half" },
+
   { measure: 2, step: "B", type: "sixteen" },
   { measure: 3, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
-  { measure: 6, step: "F", type: "whole" },
+
+  { measure: 5, step: "F", type: "whole" },
+  { measure: 5, step: "F", type: "whole" },
+  { measure: 5, step: "F", type: "whole" },
+  { measure: 5, step: "F", type: "whole" },
+  { measure: 5, step: "F", type: "whole" },
+  { measure: 5, step: "F", type: "whole" },
+  { measure: 5, step: "F", type: "whole" },
 
 ];
 
